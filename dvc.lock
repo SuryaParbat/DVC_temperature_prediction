@@ -7,12 +7,28 @@ stages:
       md5: 399512e3f0c18aa56d036f7d78fe96b1
       size: 522048
     - path: src/get_data.py
-      md5: 22749af7f1bb93a7a6d053629fd9eafe
-      size: 693
+      md5: 510b6b1b270c1fae85aa24de1a5c29cd
+      size: 717
     - path: src/load_data.py
-      md5: de4b9899bd97e8202972f15bf2e27d1b
-      size: 733
+      md5: 52159b08abb795c2b4b0c4e4a9e2c0f9
+      size: 792
     outs:
     - path: data/raw/ai4i2020.csv
-      md5: 0208394211f81038e73fb9437fbb19ed
-      size: 523915
+      md5: e5433d5962343f0a7c6c98b6df249d51
+      size: 385001
+  split_data:
+    cmd: python src/split_data.py --config=params.yaml
+    deps:
+    - path: data/raw/ai4i2020.csv
+      md5: e5433d5962343f0a7c6c98b6df249d51
+      size: 385001
+    - path: src/split_data.py
+      md5: 090bf7a76961dbe18d69dbae619bcee6
+      size: 1100
+    outs:
+    - path: data/processed/test_ai4i2020.csv
+      md5: 7f56a4fd6700997be79797269ef8b7d7
+      size: 77072
+    - path: data/processed/train_ai4i2020.csv
+      md5: b3dd5e932b68daec2a2b5df13de848d3
+      size: 308061

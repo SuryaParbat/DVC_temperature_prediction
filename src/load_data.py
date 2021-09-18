@@ -8,6 +8,8 @@ import argparse
 def load_and_save(config_path):
     config = read_params(config_path)
     df = get_data(config_path)
+
+    df = df.drop(columns=["UDI", "Product ID", "Type"])
     # replacing all " " with "_" in columns name
     new_col = [col.replace(" ", "_") for col in df.columns]
     raw_data_path = config["load_data"]["raw_dataset_csv"]
