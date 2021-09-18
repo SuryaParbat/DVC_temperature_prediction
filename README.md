@@ -40,7 +40,7 @@ git remote add origin https://
 ```
 
 ```buildoutcfg
- git branch -M main
+git branch -M main
 ```
 
 ```buildoutcfg
