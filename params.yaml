@@ -4,14 +4,14 @@ base:
   target_col: Air temperature [K]
 
 data_source:
-  s3_source: data_given/ai4i2020.csv
+  s3_source: ../data_given/ai4i2020.csv
 
 load_data:
-  raw_dataset_csv: data/raw/ai4i2020.csv
+  raw_dataset_csv: ../data/raw/ai4i2020.csv
 
 split_data:
-  train_path: data/processed/train_ai4i2020.csv
-  test_path: data/processed/test_ai4i2020.csv
+  train_path: ../data/processed/train_ai4i2020.csv
+  test_path: ../data/processed/test_ai4i2020.csv
   test_size: 0.2
 
 estimators:
