@@ -32,3 +32,29 @@ stages:
     - path: data/processed/train_ai4i2020.csv
       md5: b3dd5e932b68daec2a2b5df13de848d3
       size: 308061
+  train_and_evaluate:
+    cmd: python src/train_and_evaluate.py --config=params.yaml
+    deps:
+    - path: data/processed/test_ai4i2020.csv
+      md5: 7f56a4fd6700997be79797269ef8b7d7
+      size: 77072
+    - path: data/processed/train_ai4i2020.csv
+      md5: b3dd5e932b68daec2a2b5df13de848d3
+      size: 308061
+    - path: src/train_and_evaluate.py
+      md5: 5639e7218279c3e28801ff323d6e0748
+      size: 2678
+    params:
+      params.yaml:
+        estimators.ElasticNet.params.alpha: 0.003
+        estimators.ElasticNet.params.l1_ratio: 0.5
+    outs:
+    - path: report/params.json
+      md5: c83f778855c8df6d4bad5e18d9922b30
+      size: 46
+    - path: report/scores.json
+      md5: 04edd6080c897239cb247c7a88667732
+      size: 98
+    - path: saved_models/model.joblib
+      md5: abd3024c676e9df87a2c85927d1ed088
+      size: 714
