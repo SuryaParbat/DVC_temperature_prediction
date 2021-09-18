@@ -1,7 +1,7 @@
 base:
   project: temp_prediction-project
   random_state: 42
-  target_col: Air temperature [K]
+  target_col: Air_temperature_[K]
 
 data_source:
   s3_source: ../data_given/ai4i2020.csv

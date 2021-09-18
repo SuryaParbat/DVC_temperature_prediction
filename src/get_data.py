@@ -16,6 +16,7 @@ def get_data(config_path):
     config = read_params(config_path)
     # print(config)
     data_path = config["data_source"]["s3_source"]
+    # print(data_path)
     df = pd.read_csv(data_path, encoding='utf-8')
     # print(df.head(5))
     return df
