@@ -126,3 +126,698 @@ DEBUG:urllib3.connectionpool:Starting new HTTP connection (5): 0.0.0.0:1234
 DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/list?view_type=ALL'): Retry(total=0, connect=0, read=5, redirect=5, status=5)
 WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000197000443A0>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/list?view_type=ALL
 DEBUG:urllib3.connectionpool:Starting new HTTP connection (6): 0.0.0.0:1234
+DEBUG:root:read_params is Successfully executed
+DEBUG:root:Start time : 2021-09-19 15:02:27.822900
+DEBUG:root:Called Fuction Name : read_params
+DEBUG:root:Called Function Arguments : 'params.yaml'
+DEBUG:root:Memory : 136 Bytes
+DEBUG:root:Execution Time : 0:00:00.008990
+DEBUG:root:End Time : 2021-09-19 15:02:27.831890
+
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression'): Retry(total=4, connect=4, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002350E1FA850>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (2): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression'): Retry(total=3, connect=3, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002350E1FA1C0>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (3): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression'): Retry(total=2, connect=2, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002350E1FA040>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (4): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression'): Retry(total=1, connect=1, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002350E1FA0D0>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (5): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression'): Retry(total=0, connect=0, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002350E1FAC70>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (6): 0.0.0.0:1234
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/list?view_type=ALL'): Retry(total=4, connect=4, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002350E210EE0>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/list?view_type=ALL
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (2): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/list?view_type=ALL'): Retry(total=3, connect=3, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002350E234100>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/list?view_type=ALL
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (3): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/list?view_type=ALL'): Retry(total=2, connect=2, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002350E210610>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/list?view_type=ALL
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (4): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/list?view_type=ALL'): Retry(total=1, connect=1, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002350D1E1E50>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/list?view_type=ALL
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (5): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/list?view_type=ALL'): Retry(total=0, connect=0, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002350E2343A0>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/list?view_type=ALL
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (6): 0.0.0.0:1234
+DEBUG:root:read_params is Successfully executed
+DEBUG:root:Start time : 2021-09-19 15:05:04.380250
+DEBUG:root:Called Fuction Name : read_params
+DEBUG:root:Called Function Arguments : 'params.yaml'
+DEBUG:root:Memory : 136 Bytes
+DEBUG:root:Execution Time : 0:00:00.007004
+DEBUG:root:End Time : 2021-09-19 15:05:04.387254
+
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression'): Retry(total=4, connect=4, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E96F96A820>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (2): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression'): Retry(total=3, connect=3, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E96F96A2B0>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (3): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression'): Retry(total=2, connect=2, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E96F96AA30>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (4): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression'): Retry(total=1, connect=1, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E96F96AA60>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (5): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression'): Retry(total=0, connect=0, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E96F96AD60>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (6): 0.0.0.0:1234
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/list?view_type=ALL'): Retry(total=4, connect=4, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E96F980EB0>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/list?view_type=ALL
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (2): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/list?view_type=ALL'): Retry(total=3, connect=3, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E96F9A40D0>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/list?view_type=ALL
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (3): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/list?view_type=ALL'): Retry(total=2, connect=2, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E96F9805E0>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/list?view_type=ALL
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (4): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/list?view_type=ALL'): Retry(total=1, connect=1, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E96E951370>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/list?view_type=ALL
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (5): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/list?view_type=ALL'): Retry(total=0, connect=0, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E96F9A4370>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/list?view_type=ALL
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (6): 0.0.0.0:1234
+DEBUG:root:read_params is Successfully executed
+DEBUG:root:Start time : 2021-09-19 15:16:52.718036
+DEBUG:root:Called Fuction Name : read_params
+DEBUG:root:Called Function Arguments : 'params.yaml'
+DEBUG:root:Memory : 136 Bytes
+DEBUG:root:Execution Time : 0:00:00.014007
+DEBUG:root:End Time : 2021-09-19 15:16:52.732043
+
+DEBUG:root:read_params is Successfully executed
+DEBUG:root:Start time : 2021-09-19 15:17:35.367325
+DEBUG:root:Called Fuction Name : read_params
+DEBUG:root:Called Function Arguments : 'params.yaml'
+DEBUG:root:Memory : 136 Bytes
+DEBUG:root:Execution Time : 0:00:00.014006
+DEBUG:root:End Time : 2021-09-19 15:17:35.381331
+
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression'): Retry(total=4, connect=4, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CAFAF0A820>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (2): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression'): Retry(total=3, connect=3, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CAFAF0A2B0>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (3): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression'): Retry(total=2, connect=2, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CAFAF0AA30>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (4): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression'): Retry(total=1, connect=1, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CAFAF0AA60>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (5): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression'): Retry(total=0, connect=0, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CAFAF0AD60>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (6): 0.0.0.0:1234
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/list?view_type=ALL'): Retry(total=4, connect=4, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CAFAF20EB0>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/list?view_type=ALL
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (2): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/list?view_type=ALL'): Retry(total=3, connect=3, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CAFAF440D0>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/list?view_type=ALL
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (3): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/list?view_type=ALL'): Retry(total=2, connect=2, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CAFAF205E0>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/list?view_type=ALL
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (4): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/list?view_type=ALL'): Retry(total=1, connect=1, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CAF9EF1370>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/list?view_type=ALL
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (5): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/list?view_type=ALL'): Retry(total=0, connect=0, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CAFAF44370>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/list?view_type=ALL
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (6): 0.0.0.0:1234
+DEBUG:root:read_params is Successfully executed
+DEBUG:root:Start time : 2021-09-19 15:20:34.731792
+DEBUG:root:Called Fuction Name : read_params
+DEBUG:root:Called Function Arguments : 'params.yaml'
+DEBUG:root:Memory : 136 Bytes
+DEBUG:root:Execution Time : 0:00:00.020007
+DEBUG:root:End Time : 2021-09-19 15:20:34.751799
+
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "GET /api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression HTTP/1.1" 404 115
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/experiments/create HTTP/1.1" 200 26
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=C:\Users\surya\PycharmProjects\DVC, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=C:\Users\surya\PycharmProjects\DVC, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.util:Failed checking if running in CYGWIN due to: FileNotFoundError(2, 'The system cannot find the file specified', None, 2, None)
+DEBUG:git.cmd:Popen(['git', 'cat-file', '--batch-check'], cwd=C:\Users\surya\PycharmProjects\DVC, universal_newlines=False, shell=None, istream=<valid stream>)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/create HTTP/1.1" 200 904
+DEBUG:root:Start time : 2021-09-19 15:20:39.651035
+DEBUG:root:Called Fuction Name : eval_metrics
+DEBUG:root:Called Function Arguments :       Air_temperature_[K]
+0                   301.0
+1                   298.0
+2                   302.4
+3                   298.7
+4                   302.0
+...                   ...
+1995                301.2
+1996                297.0
+1997                301.1
+1998                299.2
+1999                301.5
+
+[2000 rows x 1 columns],
+array([301.83812828, 299.16287871, 300.94642044, ..., 302.08654384,
+       298.27489299, 300.47221694])
+DEBUG:root:Memory : 136 Bytes
+DEBUG:root:Execution Time : 0:00:00.148040
+DEBUG:root:End Time : 2021-09-19 15:20:39.799075
+
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/log-parameter HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/log-parameter HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/log-metric HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/log-metric HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/log-metric HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "GET /api/2.0/mlflow/runs/get?run_uuid=e2aa523bfbef49428b17bf8858ea441c&run_id=e2aa523bfbef49428b17bf8858ea441c HTTP/1.1" 200 1542
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "GET /api/2.0/mlflow/runs/get?run_uuid=e2aa523bfbef49428b17bf8858ea441c&run_id=e2aa523bfbef49428b17bf8858ea441c HTTP/1.1" 200 1542
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/log-model HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/preview/mlflow/registered-models/create HTTP/1.1" 400 385
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/update HTTP/1.1" 200 376
+DEBUG:root:read_params is Successfully executed
+DEBUG:root:Start time : 2021-09-19 15:31:40.306628
+DEBUG:root:Called Fuction Name : read_params
+DEBUG:root:Called Function Arguments : 'params.yaml'
+DEBUG:root:Memory : 136 Bytes
+DEBUG:root:Execution Time : 0:00:00.017002
+DEBUG:root:End Time : 2021-09-19 15:31:40.323630
+
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "GET /api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression HTTP/1.1" 404 115
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/experiments/create HTTP/1.1" 200 26
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=C:\Users\surya\PycharmProjects\DVC, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=C:\Users\surya\PycharmProjects\DVC, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.util:Failed checking if running in CYGWIN due to: FileNotFoundError(2, 'The system cannot find the file specified', None, 2, None)
+DEBUG:git.cmd:Popen(['git', 'cat-file', '--batch-check'], cwd=C:\Users\surya\PycharmProjects\DVC, universal_newlines=False, shell=None, istream=<valid stream>)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/create HTTP/1.1" 200 907
+DEBUG:root:Start time : 2021-09-19 15:31:43.690471
+DEBUG:root:Called Fuction Name : eval_metrics
+DEBUG:root:Called Function Arguments :       Air_temperature_[K]
+0                   301.0
+1                   298.0
+2                   302.4
+3                   298.7
+4                   302.0
+...                   ...
+1995                301.2
+1996                297.0
+1997                301.1
+1998                299.2
+1999                301.5
+
+[2000 rows x 1 columns],
+array([301.83812828, 299.16287871, 300.94642044, ..., 302.08654384,
+       298.27489299, 300.47221694])
+DEBUG:root:Memory : 136 Bytes
+DEBUG:root:Execution Time : 0:00:00.129251
+DEBUG:root:End Time : 2021-09-19 15:31:43.819722
+
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/log-parameter HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/log-parameter HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/log-metric HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/log-metric HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/log-metric HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "GET /api/2.0/mlflow/runs/get?run_uuid=38e4fd95bfef4c42ac8a754f70da44e8&run_id=38e4fd95bfef4c42ac8a754f70da44e8 HTTP/1.1" 200 1545
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "GET /api/2.0/mlflow/runs/get?run_uuid=38e4fd95bfef4c42ac8a754f70da44e8&run_id=38e4fd95bfef4c42ac8a754f70da44e8 HTTP/1.1" 200 1545
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/log-model HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/preview/mlflow/registered-models/create HTTP/1.1" 200 154
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "GET /api/2.0/mlflow/runs/get?run_uuid=38e4fd95bfef4c42ac8a754f70da44e8&run_id=38e4fd95bfef4c42ac8a754f70da44e8 HTTP/1.1" 200 2058
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/preview/mlflow/model-versions/create HTTP/1.1" 200 396
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/update HTTP/1.1" 200 381
+DEBUG:root:Start time : 2021-09-19 15:31:40.306628
+DEBUG:root:Called Fuction Name : train_and_evaluate
+DEBUG:root:Called Function Arguments : config_path='params.yaml'
+DEBUG:root:Memory : 136 Bytes
+DEBUG:root:Execution Time : 0:00:19.470677
+DEBUG:root:End Time : 2021-09-19 15:31:59.777305
+
+DEBUG:root:read_params is Successfully executed
+DEBUG:root:Start time : 2021-09-19 16:46:26.209322
+DEBUG:root:Called Fuction Name : read_params
+DEBUG:root:Called Function Arguments : 'params.yaml'
+DEBUG:root:Memory : 136 Bytes
+DEBUG:root:Execution Time : 0:00:00.012005
+DEBUG:root:End Time : 2021-09-19 16:46:26.221327
+
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "GET /api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression HTTP/1.1" 200 162
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=C:\Users\surya\PycharmProjects\DVC, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=C:\Users\surya\PycharmProjects\DVC, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.util:Failed checking if running in CYGWIN due to: FileNotFoundError(2, 'The system cannot find the file specified', None, 2, None)
+DEBUG:git.cmd:Popen(['git', 'cat-file', '--batch-check'], cwd=C:\Users\surya\PycharmProjects\DVC, universal_newlines=False, shell=None, istream=<valid stream>)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/create HTTP/1.1" 200 907
+DEBUG:root:Start time : 2021-09-19 16:46:30.788805
+DEBUG:root:Called Fuction Name : eval_metrics
+DEBUG:root:Called Function Arguments :       Air_temperature_[K]
+0                   301.0
+1                   298.0
+2                   302.4
+3                   298.7
+4                   302.0
+...                   ...
+1995                301.2
+1996                297.0
+1997                301.1
+1998                299.2
+1999                301.5
+
+[2000 rows x 1 columns],
+array([302.2655672 , 298.97280039, 301.13910346, ..., 302.54472073,
+       297.85878931, 300.56005426])
+DEBUG:root:Memory : 136 Bytes
+DEBUG:root:Execution Time : 0:00:00.129882
+DEBUG:root:End Time : 2021-09-19 16:46:30.918687
+
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/log-parameter HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/log-parameter HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/log-metric HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/log-metric HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/log-metric HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "GET /api/2.0/mlflow/runs/get?run_uuid=89582f8057894f128c0c33eaeddca074&run_id=89582f8057894f128c0c33eaeddca074 HTTP/1.1" 200 1547
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "GET /api/2.0/mlflow/runs/get?run_uuid=89582f8057894f128c0c33eaeddca074&run_id=89582f8057894f128c0c33eaeddca074 HTTP/1.1" 200 1547
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/log-model HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/preview/mlflow/registered-models/create HTTP/1.1" 400 441
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "GET /api/2.0/mlflow/runs/get?run_uuid=89582f8057894f128c0c33eaeddca074&run_id=89582f8057894f128c0c33eaeddca074 HTTP/1.1" 200 2060
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/preview/mlflow/model-versions/create HTTP/1.1" 200 396
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/update HTTP/1.1" 200 381
+DEBUG:root:Start time : 2021-09-19 16:46:26.209322
+DEBUG:root:Called Fuction Name : train_and_evaluate
+DEBUG:root:Called Function Arguments : config_path='params.yaml'
+DEBUG:root:Memory : 136 Bytes
+DEBUG:root:Execution Time : 0:00:17.821867
+DEBUG:root:End Time : 2021-09-19 16:46:44.031189
+
+DEBUG:root:read_params is Successfully executed
+DEBUG:root:Start time : 2021-09-19 17:34:52.989736
+DEBUG:root:Called Fuction Name : read_params
+DEBUG:root:Called Function Arguments : 'params.yaml'
+DEBUG:root:Memory : 136 Bytes
+DEBUG:root:Execution Time : 0:00:00.010003
+DEBUG:root:End Time : 2021-09-19 17:34:52.999739
+
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "GET /api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression HTTP/1.1" 200 162
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=C:\Users\surya\PycharmProjects\DVC, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=C:\Users\surya\PycharmProjects\DVC, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.util:Failed checking if running in CYGWIN due to: FileNotFoundError(2, 'The system cannot find the file specified', None, 2, None)
+DEBUG:git.cmd:Popen(['git', 'cat-file', '--batch-check'], cwd=C:\Users\surya\PycharmProjects\DVC, universal_newlines=False, shell=None, istream=<valid stream>)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/create HTTP/1.1" 200 907
+DEBUG:root:Start time : 2021-09-19 17:34:54.726157
+DEBUG:root:Called Fuction Name : eval_metrics
+DEBUG:root:Called Function Arguments :       Air_temperature_[K]
+0                   301.0
+1                   298.0
+2                   302.4
+3                   298.7
+4                   302.0
+...                   ...
+1995                301.2
+1996                297.0
+1997                301.1
+1998                299.2
+1999                301.5
+
+[2000 rows x 1 columns],
+array([302.25993715, 298.96962682, 301.15321359, ..., 302.54838332,
+       297.86485042, 300.56677543])
+DEBUG:root:Memory : 136 Bytes
+DEBUG:root:Execution Time : 0:00:00.049012
+DEBUG:root:End Time : 2021-09-19 17:34:54.775169
+
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/log-parameter HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/log-parameter HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/log-metric HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/log-metric HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/log-metric HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "GET /api/2.0/mlflow/runs/get?run_uuid=d08f79e3992242559454bf68cdf25379&run_id=d08f79e3992242559454bf68cdf25379 HTTP/1.1" 200 1547
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "GET /api/2.0/mlflow/runs/get?run_uuid=d08f79e3992242559454bf68cdf25379&run_id=d08f79e3992242559454bf68cdf25379 HTTP/1.1" 200 1547
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/log-model HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/preview/mlflow/registered-models/create HTTP/1.1" 400 441
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "GET /api/2.0/mlflow/runs/get?run_uuid=d08f79e3992242559454bf68cdf25379&run_id=d08f79e3992242559454bf68cdf25379 HTTP/1.1" 200 2060
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/preview/mlflow/model-versions/create HTTP/1.1" 200 396
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/update HTTP/1.1" 200 381
+DEBUG:root:Start time : 2021-09-19 17:34:52.989736
+DEBUG:root:Called Fuction Name : train_and_evaluate
+DEBUG:root:Called Function Arguments : config_path='params.yaml'
+DEBUG:root:Memory : 136 Bytes
+DEBUG:root:Execution Time : 0:00:12.978632
+DEBUG:root:End Time : 2021-09-19 17:35:05.968368
+
+DEBUG:root:read_params is Successfully executed
+DEBUG:root:Start time : 2021-09-19 17:35:27.616414
+DEBUG:root:Called Fuction Name : read_params
+DEBUG:root:Called Function Arguments : 'params.yaml'
+DEBUG:root:Memory : 136 Bytes
+DEBUG:root:Execution Time : 0:00:00.015990
+DEBUG:root:End Time : 2021-09-19 17:35:27.632404
+
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "GET /api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression HTTP/1.1" 200 162
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=C:\Users\surya\PycharmProjects\DVC, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=C:\Users\surya\PycharmProjects\DVC, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.util:Failed checking if running in CYGWIN due to: FileNotFoundError(2, 'The system cannot find the file specified', None, 2, None)
+DEBUG:git.cmd:Popen(['git', 'cat-file', '--batch-check'], cwd=C:\Users\surya\PycharmProjects\DVC, universal_newlines=False, shell=None, istream=<valid stream>)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/create HTTP/1.1" 200 907
+DEBUG:root:Start time : 2021-09-19 17:35:29.233406
+DEBUG:root:Called Fuction Name : eval_metrics
+DEBUG:root:Called Function Arguments :       Air_temperature_[K]
+0                   301.0
+1                   298.0
+2                   302.4
+3                   298.7
+4                   302.0
+...                   ...
+1995                301.2
+1996                297.0
+1997                301.1
+1998                299.2
+1999                301.5
+
+[2000 rows x 1 columns],
+array([302.16761517, 299.0002507 , 301.12740963, ..., 302.4735588 ,
+       297.95850154, 300.56180922])
+DEBUG:root:Memory : 136 Bytes
+DEBUG:root:Execution Time : 0:00:00.064012
+DEBUG:root:End Time : 2021-09-19 17:35:29.297418
+
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/log-parameter HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/log-parameter HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/log-metric HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/log-metric HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/log-metric HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "GET /api/2.0/mlflow/runs/get?run_uuid=cc12c978034540cdb27b35c779934ef9&run_id=cc12c978034540cdb27b35c779934ef9 HTTP/1.1" 200 1545
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "GET /api/2.0/mlflow/runs/get?run_uuid=cc12c978034540cdb27b35c779934ef9&run_id=cc12c978034540cdb27b35c779934ef9 HTTP/1.1" 200 1545
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/log-model HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/preview/mlflow/registered-models/create HTTP/1.1" 400 441
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "GET /api/2.0/mlflow/runs/get?run_uuid=cc12c978034540cdb27b35c779934ef9&run_id=cc12c978034540cdb27b35c779934ef9 HTTP/1.1" 200 2058
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/preview/mlflow/model-versions/create HTTP/1.1" 200 396
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/update HTTP/1.1" 200 381
+DEBUG:root:Start time : 2021-09-19 17:35:27.616414
+DEBUG:root:Called Fuction Name : train_and_evaluate
+DEBUG:root:Called Function Arguments : config_path='params.yaml'
+DEBUG:root:Memory : 136 Bytes
+DEBUG:root:Execution Time : 0:00:12.057988
+DEBUG:root:End Time : 2021-09-19 17:35:39.674402
+
+DEBUG:root:read_params is Successfully executed
+DEBUG:root:Start time : 2021-09-19 17:36:06.589361
+DEBUG:root:Called Fuction Name : read_params
+DEBUG:root:Called Function Arguments : 'params.yaml'
+DEBUG:root:Memory : 136 Bytes
+DEBUG:root:Execution Time : 0:00:00.014958
+DEBUG:root:End Time : 2021-09-19 17:36:06.604319
+
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "GET /api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression HTTP/1.1" 200 162
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=C:\Users\surya\PycharmProjects\DVC, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=C:\Users\surya\PycharmProjects\DVC, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.util:Failed checking if running in CYGWIN due to: FileNotFoundError(2, 'The system cannot find the file specified', None, 2, None)
+DEBUG:git.cmd:Popen(['git', 'cat-file', '--batch-check'], cwd=C:\Users\surya\PycharmProjects\DVC, universal_newlines=False, shell=None, istream=<valid stream>)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/create HTTP/1.1" 200 907
+DEBUG:root:Start time : 2021-09-19 17:36:08.248739
+DEBUG:root:Called Fuction Name : eval_metrics
+DEBUG:root:Called Function Arguments :       Air_temperature_[K]
+0                   301.0
+1                   298.0
+2                   302.4
+3                   298.7
+4                   302.0
+...                   ...
+1995                301.2
+1996                297.0
+1997                301.1
+1998                299.2
+1999                301.5
+
+[2000 rows x 1 columns],
+array([302.2655672 , 298.97280039, 301.13910346, ..., 302.54472073,
+       297.85878931, 300.56005426])
+DEBUG:root:Memory : 136 Bytes
+DEBUG:root:Execution Time : 0:00:00.064016
+DEBUG:root:End Time : 2021-09-19 17:36:08.312755
+
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/log-parameter HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/log-parameter HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/log-metric HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/log-metric HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/log-metric HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "GET /api/2.0/mlflow/runs/get?run_uuid=d1b580ad85734472820790cbaa25ce6d&run_id=d1b580ad85734472820790cbaa25ce6d HTTP/1.1" 200 1547
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "GET /api/2.0/mlflow/runs/get?run_uuid=d1b580ad85734472820790cbaa25ce6d&run_id=d1b580ad85734472820790cbaa25ce6d HTTP/1.1" 200 1547
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/log-model HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/preview/mlflow/registered-models/create HTTP/1.1" 400 441
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "GET /api/2.0/mlflow/runs/get?run_uuid=d1b580ad85734472820790cbaa25ce6d&run_id=d1b580ad85734472820790cbaa25ce6d HTTP/1.1" 200 2060
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/preview/mlflow/model-versions/create HTTP/1.1" 200 396
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/update HTTP/1.1" 200 381
+DEBUG:root:Start time : 2021-09-19 17:36:06.589361
+DEBUG:root:Called Fuction Name : train_and_evaluate
+DEBUG:root:Called Function Arguments : config_path='params.yaml'
+DEBUG:root:Memory : 136 Bytes
+DEBUG:root:Execution Time : 0:00:11.562113
+DEBUG:root:End Time : 2021-09-19 17:36:18.151474
+
+DEBUG:root:read_params is Successfully executed
+DEBUG:root:Start time : 2021-09-19 18:24:22.322643
+DEBUG:root:Called Fuction Name : read_params
+DEBUG:root:Called Function Arguments : 'params.yaml'
+DEBUG:root:Memory : 136 Bytes
+DEBUG:root:Execution Time : 0:00:00.008000
+DEBUG:root:End Time : 2021-09-19 18:24:22.330643
+
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/search HTTP/1.1" 200 11159
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "GET /api/2.0/preview/mlflow/model-versions/search?filter=name%3D%27ElasticNetAirModel%27 HTTP/1.1" 200 2033
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/preview/mlflow/model-versions/transition-stage HTTP/1.1" 200 399
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/preview/mlflow/model-versions/transition-stage HTTP/1.1" 200 399
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/preview/mlflow/model-versions/transition-stage HTTP/1.1" 200 399
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/preview/mlflow/model-versions/transition-stage HTTP/1.1" 200 399
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/preview/mlflow/model-versions/transition-stage HTTP/1.1" 200 402
+DEBUG:root:read_params is Successfully executed
+DEBUG:root:Start time : 2021-09-19 21:01:21.127201
+DEBUG:root:Called Fuction Name : read_params
+DEBUG:root:Called Function Arguments : 'params.yaml'
+DEBUG:root:Memory : 136 Bytes
+DEBUG:root:Execution Time : 0:00:00.025093
+DEBUG:root:End Time : 2021-09-19 21:01:21.152294
+
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "GET /api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression HTTP/1.1" 200 162
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=C:\Users\surya\PycharmProjects\DVC, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=C:\Users\surya\PycharmProjects\DVC, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.util:Failed checking if running in CYGWIN due to: FileNotFoundError(2, 'The system cannot find the file specified', None, 2, None)
+DEBUG:git.cmd:Popen(['git', 'cat-file', '--batch-check'], cwd=C:\Users\surya\PycharmProjects\DVC, universal_newlines=False, shell=None, istream=<valid stream>)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/create HTTP/1.1" 200 907
+DEBUG:root:Start time : 2021-09-19 21:01:26.501911
+DEBUG:root:Called Fuction Name : eval_metrics
+DEBUG:root:Called Function Arguments :       Air_temperature_[K]
+0                   301.0
+1                   298.0
+2                   302.4
+3                   298.7
+4                   302.0
+...                   ...
+1995                301.2
+1996                297.0
+1997                301.1
+1998                299.2
+1999                301.5
+
+[2000 rows x 1 columns],
+array([302.25731487, 298.96855155, 301.15859   , ..., 302.54943247,
+       297.86765193, 300.56936132])
+DEBUG:root:Memory : 136 Bytes
+DEBUG:root:Execution Time : 0:00:00.355085
+DEBUG:root:End Time : 2021-09-19 21:01:26.856996
+
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/log-parameter HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/log-parameter HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/log-metric HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/log-metric HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/log-metric HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "GET /api/2.0/mlflow/runs/get?run_uuid=7129b26c484e4294b0619af13b491d86&run_id=7129b26c484e4294b0619af13b491d86 HTTP/1.1" 200 1547
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "GET /api/2.0/mlflow/runs/get?run_uuid=7129b26c484e4294b0619af13b491d86&run_id=7129b26c484e4294b0619af13b491d86 HTTP/1.1" 200 1547
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/log-model HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/preview/mlflow/registered-models/create HTTP/1.1" 400 441
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "GET /api/2.0/mlflow/runs/get?run_uuid=7129b26c484e4294b0619af13b491d86&run_id=7129b26c484e4294b0619af13b491d86 HTTP/1.1" 200 2060
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/preview/mlflow/model-versions/create HTTP/1.1" 200 396
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/update HTTP/1.1" 200 381
+DEBUG:root:Start time : 2021-09-19 21:01:21.127201
+DEBUG:root:Called Fuction Name : train_and_evaluate
+DEBUG:root:Called Function Arguments : config_path='params.yaml'
+DEBUG:root:Memory : 136 Bytes
+DEBUG:root:Execution Time : 0:00:28.713772
+DEBUG:root:End Time : 2021-09-19 21:01:49.840973
+
+DEBUG:root:read_params is Successfully executed
+DEBUG:root:Start time : 2021-09-19 21:02:36.583097
+DEBUG:root:Called Fuction Name : read_params
+DEBUG:root:Called Function Arguments : 'params.yaml'
+DEBUG:root:Memory : 136 Bytes
+DEBUG:root:Execution Time : 0:00:00.010000
+DEBUG:root:End Time : 2021-09-19 21:02:36.593097
+
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "GET /api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression HTTP/1.1" 200 162
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=C:\Users\surya\PycharmProjects\DVC, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=C:\Users\surya\PycharmProjects\DVC, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.util:Failed checking if running in CYGWIN due to: FileNotFoundError(2, 'The system cannot find the file specified', None, 2, None)
+DEBUG:git.cmd:Popen(['git', 'cat-file', '--batch-check'], cwd=C:\Users\surya\PycharmProjects\DVC, universal_newlines=False, shell=None, istream=<valid stream>)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/create HTTP/1.1" 200 907
+DEBUG:root:Start time : 2021-09-19 21:02:37.918734
+DEBUG:root:Called Fuction Name : eval_metrics
+DEBUG:root:Called Function Arguments :       Air_temperature_[K]
+0                   301.0
+1                   298.0
+2                   302.4
+3                   298.7
+4                   302.0
+...                   ...
+1995                301.2
+1996                297.0
+1997                301.1
+1998                299.2
+1999                301.5
+
+[2000 rows x 1 columns],
+array([302.2655672 , 298.97280039, 301.13910346, ..., 302.54472073,
+       297.85878931, 300.56005426])
+DEBUG:root:Memory : 136 Bytes
+DEBUG:root:Execution Time : 0:00:00.041924
+DEBUG:root:End Time : 2021-09-19 21:02:37.960658
+
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/log-parameter HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/log-parameter HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/log-metric HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/log-metric HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/log-metric HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "GET /api/2.0/mlflow/runs/get?run_uuid=38b94b83c89349e38fec9180b5284964&run_id=38b94b83c89349e38fec9180b5284964 HTTP/1.1" 200 1547
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "GET /api/2.0/mlflow/runs/get?run_uuid=38b94b83c89349e38fec9180b5284964&run_id=38b94b83c89349e38fec9180b5284964 HTTP/1.1" 200 1547
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/log-model HTTP/1.1" 200 2
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/preview/mlflow/registered-models/create HTTP/1.1" 400 441
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "GET /api/2.0/mlflow/runs/get?run_uuid=38b94b83c89349e38fec9180b5284964&run_id=38b94b83c89349e38fec9180b5284964 HTTP/1.1" 200 2060
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/preview/mlflow/model-versions/create HTTP/1.1" 200 396
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG:urllib3.connectionpool:http://127.0.0.1:5000 "POST /api/2.0/mlflow/runs/update HTTP/1.1" 200 381
+DEBUG:root:Start time : 2021-09-19 21:02:36.583097
+DEBUG:root:Called Fuction Name : train_and_evaluate
+DEBUG:root:Called Function Arguments : config_path='params.yaml'
+DEBUG:root:Memory : 136 Bytes
+DEBUG:root:Execution Time : 0:00:11.482193
+DEBUG:root:End Time : 2021-09-19 21:02:48.065290
+
