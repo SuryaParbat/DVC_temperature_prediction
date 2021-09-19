@@ -41,7 +41,7 @@ input_data = {
          "PwF": 0,
          "OSf": 0,
          "RNf": 0
-         },
+         }
 }
 
 TARGET_range = {
