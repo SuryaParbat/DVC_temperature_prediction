@@ -12,11 +12,11 @@ input_data = {
     "Rotational_speed_[rpm]": 3000,
     "Torque_[Nm]": 99,
     "Tool_wear_[min]": 300,
-    "TWF": 12,
-    "HDF": 789,
-    "PWF": 75,
+    "TWF": 2,
+    "HDF": 2,
+    "PWF": 2,
     "OSF": 2,
-    "RNF": 33
+    "RNF": 2
     },
 
     "correct_range":
