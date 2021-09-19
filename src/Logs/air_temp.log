@@ -1,0 +1,104 @@
+DEBUG:root:read_params is Successfully executed
+DEBUG:root:Start time : 2021-09-19 11:28:50.019956
+DEBUG:root:Called Fuction Name : read_params
+DEBUG:root:Called Function Arguments : '../params.yaml'
+DEBUG:root:Memory : 136 Bytes
+DEBUG:root:Execution Time : 0:00:00.007002
+DEBUG:root:End Time : 2021-09-19 11:28:50.026958
+
+DEBUG:root:get_data is Successfully executed
+DEBUG:root:Start time : 2021-09-19 11:28:50.019956
+DEBUG:root:Called Fuction Name : get_data
+DEBUG:root:Called Function Arguments : config_path='../params.yaml'
+DEBUG:root:Memory : 136 Bytes
+DEBUG:root:Execution Time : 0:00:00.052064
+DEBUG:root:End Time : 2021-09-19 11:28:50.072020
+
+DEBUG:root:read_params is Successfully executed
+DEBUG:root:Start time : 2021-09-19 11:29:04.614826
+DEBUG:root:Called Fuction Name : read_params
+DEBUG:root:Called Function Arguments : '../params.yaml'
+DEBUG:root:Memory : 136 Bytes
+DEBUG:root:Execution Time : 0:00:00.007990
+DEBUG:root:End Time : 2021-09-19 11:29:04.622816
+
+DEBUG:root:read_params is Successfully executed
+DEBUG:root:Start time : 2021-09-19 11:29:04.637819
+DEBUG:root:Called Fuction Name : read_params
+DEBUG:root:Called Function Arguments : '../params.yaml'
+DEBUG:root:Memory : 136 Bytes
+DEBUG:root:Execution Time : 0:00:00.006000
+DEBUG:root:End Time : 2021-09-19 11:29:04.643819
+
+DEBUG:root:get_data is Successfully executed
+DEBUG:root:Start time : 2021-09-19 11:29:04.637819
+DEBUG:root:Called Fuction Name : get_data
+DEBUG:root:Called Function Arguments : '../params.yaml'
+DEBUG:root:Memory : 136 Bytes
+DEBUG:root:Execution Time : 0:00:00.052014
+DEBUG:root:End Time : 2021-09-19 11:29:04.689833
+
+DEBUG:root:load_and_save is Successfully executed
+DEBUG:root:Start time : 2021-09-19 11:29:04.614826
+DEBUG:root:Called Fuction Name : load_and_save
+DEBUG:root:Called Function Arguments : config_path='../params.yaml'
+DEBUG:root:Memory : 136 Bytes
+DEBUG:root:Execution Time : 0:00:00.158029
+DEBUG:root:End Time : 2021-09-19 11:29:04.772855
+
+DEBUG:root:read_params is Successfully executed
+DEBUG:root:Start time : 2021-09-19 11:31:28.753519
+DEBUG:root:Called Fuction Name : read_params
+DEBUG:root:Called Function Arguments : '../params.yaml'
+DEBUG:root:Memory : 136 Bytes
+DEBUG:root:Execution Time : 0:00:00.005869
+DEBUG:root:End Time : 2021-09-19 11:31:28.759388
+
+DEBUG:root:split_and_saved_data is Successfully executed
+DEBUG:root:Start time : 2021-09-19 11:31:28.753519
+DEBUG:root:Called Fuction Name : split_and_saved_data
+DEBUG:root:Called Function Arguments : config_path='../params.yaml'
+DEBUG:root:Memory : 136 Bytes
+DEBUG:root:Execution Time : 0:00:00.115022
+DEBUG:root:End Time : 2021-09-19 11:31:28.868541
+
+DEBUG:root:read_params is Successfully executed
+DEBUG:root:Start time : 2021-09-19 11:38:01.322469
+DEBUG:root:Called Fuction Name : read_params
+DEBUG:root:Called Function Arguments : '../params.yaml'
+DEBUG:root:Memory : 136 Bytes
+DEBUG:root:Execution Time : 0:00:00.006926
+DEBUG:root:End Time : 2021-09-19 11:38:01.329395
+
+DEBUG:root:eval_metrics is Successfully executed
+DEBUG:root:Start time : 2021-09-19 11:38:01.388627
+DEBUG:root:Called Fuction Name : eval_metrics
+DEBUG:root:Called Function Arguments :       Air_temperature_[K]
+0                   301.0
+1                   298.0
+2                   302.4
+3                   298.7
+4                   302.0
+...                   ...
+1995                301.2
+1996                297.0
+1997                301.1
+1998                299.2
+1999                301.5
+
+[2000 rows x 1 columns],
+array([302.26412962, 298.9718621 , 301.14320016, ..., 302.54586708,
+       297.86035739, 300.56197714])
+DEBUG:root:Memory : 136 Bytes
+DEBUG:root:Execution Time : 0:00:00.078229
+DEBUG:root:End Time : 2021-09-19 11:38:01.466856
+
+DEBUG:root:train_and_evaluate is Successfully executed
+DEBUG:root:model file is Successfully created at ../saved_models\model.joblib
+DEBUG:root:Start time : 2021-09-19 11:38:01.322469
+DEBUG:root:Called Fuction Name : train_and_evaluate
+DEBUG:root:Called Function Arguments : config_path='../params.yaml'
+DEBUG:root:Memory : 136 Bytes
+DEBUG:root:Execution Time : 0:00:00.154401
+DEBUG:root:End Time : 2021-09-19 11:38:01.476870
+

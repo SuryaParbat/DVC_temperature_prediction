@@ -2,24 +2,42 @@
 # process
 # return dataframe
 
-import os
 import yaml
 import pandas as pd
 import argparse
+import logging
+from src.logger import moniter, create_log_file
 
+create_log_file('air_temp.log')
+
+@moniter
 def read_params(config_path):
-    with open(config_path) as yaml_file:
-        config = yaml.safe_load(yaml_file)
-    return config
+    try:
+        with open(config_path) as yaml_file:
+            config = yaml.safe_load(yaml_file)
+        logging.debug(f"""read_params is Successfully executed""")
+        return config
 
+    except Exception as e:
+        logging.error(f""" ERROR IN : read_params : {str(e)}\n""")
+        return f"""ERROR IN : read_params : {str(e)}\n"""
+
+@moniter
 def get_data(config_path):
-    config = read_params(config_path)
-    # print(config)
-    data_path = config["data_source"]["s3_source"]
-    # print(data_path)
-    df = pd.read_csv(data_path, encoding='utf-8')
-    # print(df.head(5))
-    return df
+    try:
+        config = read_params(config_path)
+        # print(config)
+        data_path = config["data_source"]["s3_source"]
+        # print(data_path)
+        df = pd.read_csv(data_path, encoding='utf-8')
+        # print(df.head(5))
+        logging.debug(f"""get_data is Successfully executed""")
+        return df
+
+    except Exception as e:
+        logging.error(f""" ERROR IN : get_data : {str(e)}\n""")
+        return f"""ERROR IN : get_data : {str(e)}\n"""
+
 
 if __name__ == "__main__":
     args = argparse.ArgumentParser()
