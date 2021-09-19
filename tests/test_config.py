@@ -12,11 +12,11 @@ input_data = {
     "Rotational_speed_[rpm]": 30000,
     "Torque_[Nm]": 170,
     "Tool_wear_[min]": 300,
-    "TWF": 1,
-    "HDF": 1,
-    "PWF": 0,
-    "OSF": 0,
-    "RNF": 0
+    "TWF": 20,
+    "HDF": 2,
+    "PWF": 10,
+    "OSF": 3,
+    "RNF": 15
     },
 
     "correct_range":
@@ -32,10 +32,10 @@ input_data = {
          },
 
     "incorrect_col":
-        {"Process temperature [K]": 310,
-         "Rotational speed [rpm]": 2000,
+        {"Process temperature [K]": 308,
+         "Rotational speed [rpm]": 1500,
          "Torque [Nm]": 60,
-         "Tool wear [min]": 200,
+         "Tool wear [min]": 10,
          "TwF": 0,
          "hDF": 1,
          "PwF": 0,
