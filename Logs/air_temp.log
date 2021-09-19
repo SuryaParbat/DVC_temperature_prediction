@@ -1,0 +1,128 @@
+DEBUG:root:read_params is Successfully executed
+DEBUG:root:Start time : 2021-09-19 14:25:11.760162
+DEBUG:root:Called Fuction Name : read_params
+DEBUG:root:Called Function Arguments : 'params.yaml'
+DEBUG:root:Memory : 136 Bytes
+DEBUG:root:Execution Time : 0:00:00.007885
+DEBUG:root:End Time : 2021-09-19 14:25:11.768047
+
+DEBUG:root:read_params is Successfully executed
+DEBUG:root:Start time : 2021-09-19 14:27:24.822022
+DEBUG:root:Called Fuction Name : read_params
+DEBUG:root:Called Function Arguments : 'params.yaml'
+DEBUG:root:Memory : 136 Bytes
+DEBUG:root:Execution Time : 0:00:00.008126
+DEBUG:root:End Time : 2021-09-19 14:27:24.830148
+
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression'): Retry(total=4, connect=4, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000183E6704E50>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (2): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression'): Retry(total=3, connect=3, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000183E771A4F0>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (3): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression'): Retry(total=2, connect=2, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000183E771A100>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (4): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression'): Retry(total=1, connect=1, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000183E771ABE0>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (5): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression'): Retry(total=0, connect=0, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000183E771AAC0>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (6): 0.0.0.0:1234
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/list?view_type=ALL'): Retry(total=4, connect=4, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000183E7731CD0>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/list?view_type=ALL
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (2): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/list?view_type=ALL'): Retry(total=3, connect=3, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000183E7731EB0>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/list?view_type=ALL
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (3): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/list?view_type=ALL'): Retry(total=2, connect=2, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000183E7731280>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/list?view_type=ALL
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (4): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/list?view_type=ALL'): Retry(total=1, connect=1, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000183E7731520>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/list?view_type=ALL
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (5): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/list?view_type=ALL'): Retry(total=0, connect=0, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000183E7757130>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/list?view_type=ALL
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (6): 0.0.0.0:1234
+DEBUG:root:read_params is Successfully executed
+DEBUG:root:Start time : 2021-09-19 14:30:33.886525
+DEBUG:root:Called Fuction Name : read_params
+DEBUG:root:Called Function Arguments : 'params.yaml'
+DEBUG:root:Memory : 136 Bytes
+DEBUG:root:Execution Time : 0:00:00.009000
+DEBUG:root:End Time : 2021-09-19 14:30:33.895525
+
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression'): Retry(total=4, connect=4, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025340652E50>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (2): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression'): Retry(total=3, connect=3, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000253416694F0>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (3): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression'): Retry(total=2, connect=2, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025341669100>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (4): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression'): Retry(total=1, connect=1, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025341669BE0>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (5): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression'): Retry(total=0, connect=0, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025341669AC0>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (6): 0.0.0.0:1234
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/list?view_type=ALL'): Retry(total=4, connect=4, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025341680CD0>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/list?view_type=ALL
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (2): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/list?view_type=ALL'): Retry(total=3, connect=3, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025341680EB0>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/list?view_type=ALL
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (3): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/list?view_type=ALL'): Retry(total=2, connect=2, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025341680280>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/list?view_type=ALL
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (4): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/list?view_type=ALL'): Retry(total=1, connect=1, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025341680520>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/list?view_type=ALL
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (5): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/list?view_type=ALL'): Retry(total=0, connect=0, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000253416A7130>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/list?view_type=ALL
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (6): 0.0.0.0:1234
+DEBUG:root:read_params is Successfully executed
+DEBUG:root:Start time : 2021-09-19 14:37:10.881777
+DEBUG:root:Called Fuction Name : read_params
+DEBUG:root:Called Function Arguments : 'params.yaml'
+DEBUG:root:Memory : 136 Bytes
+DEBUG:root:Execution Time : 0:00:00.009003
+DEBUG:root:End Time : 2021-09-19 14:37:10.890780
+
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression'): Retry(total=4, connect=4, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001970000A850>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (2): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression'): Retry(total=3, connect=3, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001970000A1C0>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (3): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression'): Retry(total=2, connect=2, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001970000A040>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (4): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression'): Retry(total=1, connect=1, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001970000A0D0>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (5): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression'): Retry(total=0, connect=0, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001970000AC70>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=ElasticNet+regression
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (6): 0.0.0.0:1234
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/list?view_type=ALL'): Retry(total=4, connect=4, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001970001FEE0>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/list?view_type=ALL
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (2): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/list?view_type=ALL'): Retry(total=3, connect=3, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000019700044100>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/list?view_type=ALL
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (3): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/list?view_type=ALL'): Retry(total=2, connect=2, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001970001F610>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/list?view_type=ALL
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (4): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/list?view_type=ALL'): Retry(total=1, connect=1, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001977EFE1E50>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/list?view_type=ALL
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (5): 0.0.0.0:1234
+DEBUG:urllib3.util.retry:Incremented Retry for (url='/api/2.0/mlflow/experiments/list?view_type=ALL'): Retry(total=0, connect=0, read=5, redirect=5, status=5)
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=0, read=5, redirect=5, status=5)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000197000443A0>: Failed to establish a new connection: [WinError 10049] The requested address is not valid in its context')': /api/2.0/mlflow/experiments/list?view_type=ALL
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (6): 0.0.0.0:1234

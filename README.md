@@ -46,3 +46,15 @@ git branch -M main
 ```buildoutcfg
 git push origin main
 ```
+create artifact filder
+````buildoutcfg
+mkdir artifacts
+````
+
+````buildoutcfg
+mlflow server command - 
+mlflow server \
+    --backend-store-uri sqlite:///mlflow.db \
+    --default-artifact-root ./artifacts \
+    --host 0.0.0.0 -p 1234
+````

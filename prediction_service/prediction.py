@@ -34,7 +34,7 @@ def predict(data):
 
     try:
         if 292 <= prediction <= 400:
-            return round(prediction, 2)
+            return round(prediction,2)
         else:
             raise NotInRange
     except NotInRange:
@@ -63,7 +63,7 @@ def validate_input(dict_request):
             raise NotInRange
 
     for col, val in dict_request.items():
-        # print(col)
+        print(col)
         _validate_cols(col)
         _validate_values(col, val)
 
@@ -93,7 +93,6 @@ def api_response(dict_request):
     except NotInCols as e:
         response = {"the_expected_cols": get_schema().keys(), "response": str(e)}
         return response
-
 
     except Exception as e:
         response = {"response": str(e)}
