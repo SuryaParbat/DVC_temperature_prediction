@@ -8,25 +8,25 @@ import prediction_service
 
 input_data = {
     "incorrect_range":
-    {"Process_temperature_[K]": 7897897,
-    "Rotational_speed_[rpm]": 3000,
-    "Torque_[Nm]": 99,
+    {"Process_temperature_[K]": 40000,
+    "Rotational_speed_[rpm]": 30000,
+    "Torque_[Nm]": 170,
     "Tool_wear_[min]": 300,
-    "TWF": 2,
-    "HDF": 2,
-    "PWF": 2,
-    "OSF": 2,
-    "RNF": 2
+    "TWF": 1,
+    "HDF": 1,
+    "PWF": 0,
+    "OSF": 0,
+    "RNF": 0
     },
 
     "correct_range":
-        {"Process_temperature_[K]": 304,
-         "Rotational_speed_[rpm]": 1167,
-         "Torque_[Nm]": 2,
-         "Tool_wear_[min]": 0,
+        {"Process_temperature_[K]": 308,
+         "Rotational_speed_[rpm]": 1169,
+         "Torque_[Nm]": 20,
+         "Tool_wear_[min]": 10,
          "TWF": 0,
          "HDF": 0,
-         "PWF": 0,
+         "PWF": 1,
          "OSF": 0,
          "RNF": 0
          },
@@ -36,11 +36,11 @@ input_data = {
          "Rotational speed [rpm]": 2000,
          "Torque [Nm]": 60,
          "Tool wear [min]": 200,
-         "TwF": 1,
+         "TwF": 0,
          "hDF": 1,
-         "PwF": 1,
-         "OSf": 1,
-         "RNf": 1
+         "PwF": 0,
+         "OSf": 0,
+         "RNf": 0
          },
 }
 
