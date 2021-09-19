@@ -31,17 +31,14 @@ def predict(data):
     model_dir_path = config["webapp_model_dir"]
     model = joblib.load(model_dir_path)
     prediction = model.predict(data).tolist()[0]
-    return round(prediction,2)
 
-'''
     try:
-        if 304 <= prediction <= 395:
-            return prediction
+        if 292 <= prediction <= 400:
+            return round(prediction,2)
         else:
             raise NotInRange
     except NotInRange:
         return "Unexpected result"
-    '''
 
 
 def get_schema(schema_path=schema_path):
